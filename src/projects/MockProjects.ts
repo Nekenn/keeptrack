@@ -57,7 +57,7 @@ export const MOCK_PROJECTS = [
     isActive: true,
   }),
   new Project({
-    id: 1,
+    id: 6,
     name: 'Lesch - Waelchi',
     description:
       'Profound mobile project. Rem consequatur laborum explicabo sint odit et illo voluptas expedita.',
