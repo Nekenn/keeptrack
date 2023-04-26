@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Pro(){
-  return(
+function Pro() {
+  return (
     <div>
       <p>Hello world!</p>
     </div>

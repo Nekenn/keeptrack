@@ -5,7 +5,7 @@ import Hello from './Hello';
 function App() {
   return (
     <div>
-      <Hello name="Nirina" enthusiasmLevel={8}/>
+      <Hello name="Hello" enthusiasmLevel={2}/>
       <ProjectsPage />
     </div>
   );
