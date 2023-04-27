@@ -1,28 +1,13 @@
-import React from "react";
-import PropTypes, { checkPropTypes } from "prop-types";
+import  ProjectCard  from './ProjectCard'
 
-import { Project } from './Project';
 
 function ProjectList({ projects }) {
-    return (
-        <div className="row">
-            {
-                projects.map((project)=>(
-                    <div className="card">
-                        <img src={project.imageUrl} alt = {project.name} />
-                        <section className = "section dark">
-                            <strong>{project.name}</strong>
-                            <p>{project.description}</p>
-                            <p>Budget: {project.budget.toLocaleString()}</p>
-
-                        </section>
-                    </div>
-                ))
-            }
+    const items = projects.map(project=>(
+        <div key={project.id} className="cols-sm">
+            <ProjectCard project = {project}></ProjectCard>
         </div>
-    );
+    ));
+    return <div className="row">{items}</div>
 }
-ProjectList.propTypes = {
-    projects: PropTypes.arrayOf(PropTypes.instanceOf(Project)).isRequired
-};
+
 export default ProjectList;
