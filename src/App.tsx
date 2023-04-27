@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ProjectsPage from './projects/ProjectsPage';
+import ProjectList from './projects/ProjectList';
 import Hello from './Hello';
 import FruitList from './tester/Fruit';
 import ExplainBindingComponent from './tester/ExplainBindingComponent';

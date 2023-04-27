@@ -14,5 +14,6 @@ numbers.forEach(
     }
 );
 */
+
 const tens = numbers.map((number) => number * 10);
 console.log(tens);
