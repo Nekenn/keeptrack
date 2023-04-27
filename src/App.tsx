@@ -15,12 +15,8 @@ function App() {
     { id: 5, name: 'kiwi' },
   ];
   
-
   return (
     <div>
-      <FruitList fruits={data} />
-      <Hello name="You" enthusiasmLevel={2} />
-      <ExplainBindingComponent />
       <ProjectsPage />
     </div>
   );
